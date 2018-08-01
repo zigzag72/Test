@@ -1,0 +1,94 @@
+Frame 1: 146 bytes on wire (1168 bits), 146 bytes captured (1168 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{C069DB66-38DC-44E2-87A4-F8E096A44AAB})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 24, 2017 13:37:05.816416000 Eastern Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1485283025.816416000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 146 bytes (1168 bits)
+    Capture Length: 146 bytes (1168 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:llc:cdp]
+IEEE 802.3 Ethernet 
+    Destination: CDP/VTP/DTP/PAgP/UDLD (01:00:0c:cc:cc:cc)
+        Address: CDP/VTP/DTP/PAgP/UDLD (01:00:0c:cc:cc:cc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: CiscoInc_84:80:02 (f0:f7:55:84:80:02)
+        Address: CiscoInc_84:80:02 (f0:f7:55:84:80:02)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Length: 132
+Logical-Link Control
+    DSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = IG Bit: Individual
+    SSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = CR Bit: Command
+    Control field: U, func=UI (0x03)
+        000. 00.. = Command: Unnumbered Information (0x00)
+        .... ..11 = Frame type: Unnumbered frame (0x3)
+    Organization Code: Cisco (0x00000c)
+    PID: CDP (0x2000)
+Cisco Discovery Protocol
+    Version: 2
+    TTL: 180 seconds
+    Checksum: 0x0f14 [correct]
+    [Checksum Status: Good]
+    Device ID: SEPF0F755848002
+        Type: Device ID (0x0001)
+        Length: 19
+        Device ID: SEPF0F755848002
+    Addresses
+        Type: Addresses (0x0002)
+        Length: 17
+        Number of addresses: 1
+        IP address: 10.133.36.66
+            Protocol type: NLPID (0x01)
+            Protocol length: 1
+            Protocol: IP
+            Address length: 4
+            IP Address: 10.133.36.66
+    Port ID: Port 2
+        Type: Port ID (0x0003)
+        Length: 10
+        Sent through Interface: Port 2
+    Capabilities
+        Type: Capabilities (0x0004)
+        Length: 8
+        Capabilities: 0x00000490
+            .... .... .... .... .... .... .... ...0 = Router: No
+            .... .... .... .... .... .... .... ..0. = Transparent Bridge: No
+            .... .... .... .... .... .... .... .0.. = Source Route Bridge: No
+            .... .... .... .... .... .... .... 0... = Switch: No
+            .... .... .... .... .... .... ...1 .... = Host: Yes
+            .... .... .... .... .... .... ..0. .... = IGMP capable: No
+            .... .... .... .... .... .... .0.. .... = Repeater: No
+    Software Version
+        Type: Software version (0x0005)
+        Length: 19
+        Software version: SCCP 9-4-2SR2-2
+    Power Request: 
+        Type: Power Requested (0x0019)
+        Length: 12
+        Request-ID: 7388
+        Management-ID: 3
+        Power Requested: 6400 mW
+    Duplex: Full
+        Type: Duplex (0x000b)
+        Length: 5
+        Duplex: Full
+    Power Consumption: 6400 mW
+        Type: Power consumption (0x0010)
+        Length: 6
+        Power Consumption: 6400 mW
+    Platform: Cisco IP Phone 8945 
+        Type: Platform (0x0006)
+        Length: 24
+        Platform: Cisco IP Phone 8945 
+
